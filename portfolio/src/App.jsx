@@ -1,6 +1,13 @@
+import Navbar from "./components/Navbar";
+import AboutMe from "./components/AboutMe";
+import "./App.css";
+
 function App() {
   return (
-    <h1>Portfolio</h1>
+    <>
+      <Navbar />
+      <AboutMe />
+    </>
   );
 }
 
